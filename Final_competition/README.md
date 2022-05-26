@@ -1,7 +1,7 @@
 # Final competition #
 ## Step1
 ```
-$ git clone https://github.com/derekray311511/hcc_2022.git
+git clone https://github.com/derekray311511/hcc_2022.git
 ```
 [Github](https://github.com/derekray311511/hcc_2022)  
 Please copy the "darknet_ros" pakage you have use in Lab8 and Lab9 into your workspace.  
@@ -9,8 +9,8 @@ Please copy the "darknet_ros" pakage you have use in Lab8 and Lab9 into your wor
 
 ## Step2
 Please finish the template shown below:
-* hcc-final-competition-2021/hcc_ws/src/estimation_pos/src/apriltag_localization.cpp
-* hcc-final-competition-2021/hcc_ws/src/estimation_pos/src/drone_object.py
+* hcc_2022/Final_competition/hcc_ws/src/estimation_pos/src/apriltag_localization_2022.cpp
+* hcc_2022/Final_competition/hcc_ws/src/estimation_pos/src/drone_object_2022.py
 
 Note that you have to catkin_make your code each time after you change your code.
 ```
@@ -53,5 +53,5 @@ Then,
 > ```
 > open another terminal(T6) and play the bag
 > ```
-> rosbag play "the bag you want to play" -r 0.1 --clock
+> rosbag play "the bag you want to play" -r 0.5 --clock
 > ```
