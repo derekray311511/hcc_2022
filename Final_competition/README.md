@@ -1,9 +1,9 @@
 # Final competition #
 ## Step1
 ```
-$ git clone https://github.com/banbanhank/hcc-final-competition-2021.git
+$ git clone https://github.com/derekray311511/hcc_2022.git
 ```
-[Github](https://github.com/derekray311511/hcc_2022/Final_competition)  
+[Github](https://github.com/derekray311511/hcc_2022)  
 Please copy the "darknet_ros" pakage you have use in Lab8 and Lab9 into your workspace.  
 ![](https://imgur.com/0dVP4uY.png)  
 
