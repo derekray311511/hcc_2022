@@ -1,0 +1,32 @@
+# Test under python 3.8
+numpy>=1.20.2
+cmake>=3.19.6
+opencv>=4.0.1
+
+dlib>=19.22.0
+imutils>=0.5.4
+scikit-learn>=0.24.2
+tensorflow>=2.5 # pip install tensorflow==2.5
+
+# Read youtube video or stream
+pafy>=0.5.5 # pip install pafy
+youtube-dl>=2021.6.6 # pip install youtube-dl
+
+
+# conda install numpy, cmake, opencv
+# conda install -c conda-forge dlib
+# conda install -c conda-forge imutils
+# conda install -c conda-forge scikit-learn 
+
+### don't need now ###
+
+# cudatoolkit>=10.1
+# cudnn>=7.6
+
+# conda install -c anaconda cudatoolkit==10.1
+# conda install -c anaconda cudnn==7.6
+
+
+## If "AttributeError: type object 'h5py.h5r.Reference' has no attribute '__reduce_cython__'"
+check h5py and cython
+delete h5py from "C:\Users\DDFish\anaconda3\envs\emotion02\Lib\site-packages" and conda install h5py
